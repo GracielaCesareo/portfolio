@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grace Dev/Designer</title>
-    <link rel="icon" type="image/png" href="./img/favicon.png">
-    <link rel="stylesheet" href="vendors/flexbox-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.min.css">
-    <link rel="preload" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="vendors/flexbox-grid.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link
+      rel="preload"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
 
-    <meta name="description" content="Grace Frontend Dev. A unicorn with superpowers to code and design, focused on building interactive visual components for digital products always keeping in mind the final user">
-    <meta property="og:title" content="Grace Frontend Dev">
-    <meta property="og:image" content="./img/grace_frontend_dev.png">
+    <meta
+      name="description"
+      content="Grace Frontend Dev. A unicorn with superpowers to code and design, focused on building interactive visual components for digital products always keeping in mind the final user"
+    />
+    <meta property="og:title" content="Grace Frontend Dev" />
+    <meta property="og:image" content="./img/grace_frontend_dev.png" />
 
     <script rel="preload" src="js/app.js" type="module"></script>
     <script rel="preload" src="js/portfolio.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- header component -->
-    <header id="headerComponent" class="comp-header row middle-xs">
-    </header>
+    <header id="headerComponent" class="comp-header row middle-xs"></header>
     <!-- header component end-->
-
 
     <!-- hero section component -->
     <section class="comp-hero"></section>
@@ -32,24 +40,28 @@
     <section id="projects" class="comp-projects work"></section>
     <!-- work section component end-->
 
-
     <!-- footer section component -->
     <footer class="comp-footer row middle-xs"></footer>
     <!-- footer section component end -->
 
-    <script rel="preload"  src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script rel="preload"  src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script rel="preload"  src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
-    
+    <script
+      rel="preload"
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    ></script>
+    <script
+      rel="preload"
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
+    ></script>
+    <script
+      rel="preload"
+      src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"
+    ></script>
+
     <script>
-        Portfolio.load_component('header');
-        Portfolio.load_component('hero');
-        Portfolio.load_component('projects');
-        Portfolio.load_component('footer');
-
-        console.log(window.location.hostname)
+      Portfolio.load_component("header");
+      Portfolio.load_component("hero");
+      Portfolio.load_component("projects");
+      Portfolio.load_component("footer");
     </script>
-    
-
-</body>
+  </body>
 </html>
